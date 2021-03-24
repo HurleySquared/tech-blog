@@ -14,6 +14,8 @@ router.post('/', async (req, res) => {
   }
 });
 
+// add Update Method for blog
+
 router.delete('/:id', async (req, res) => {
   try {
     const blogData = await Blog.destroy({
