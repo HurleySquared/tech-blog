@@ -58,7 +58,7 @@ THEN I am automatically signed out of the site
 [GitHub Repo](https://github.com/HurleySquared/tech-blog)
 
 ## Deployed Heroku Link
-[Heroku Link]()
+[Heroku Link](https://desolate-ravine-69539.herokuapp.com/)
 
 ## Screenshots
-![Screenshot]()
+<!-- ![Screenshot]() -->
