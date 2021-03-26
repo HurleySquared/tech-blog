@@ -1,9 +1,9 @@
 const router = require('express').Router();
 const { Comment } = require('../../models');
 
-router.post('/', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const newComment = await Comment.findCreateFind({
+    const newComment = await Comment.create({
       ...req.body,
       user_id: req.session.user_id,
     });

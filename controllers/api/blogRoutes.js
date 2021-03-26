@@ -1,9 +1,9 @@
 const router = require('express').Router();
 const { Blog } = require('../../models');
 
-router.post('/', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const newBlog = await Blog.findCreateFind({
+    const newBlog = await Blog.create({
       ...req.body,
       user_id: req.session.user_id,
     });
