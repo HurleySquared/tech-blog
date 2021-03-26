@@ -1,6 +1,7 @@
 # Tech Blog
 
 ## Description
+Using the MVC paradigm and Handlebars.js I built a tech blog application similar to that of a Wordpress site.  I used multiple packages like bcrypt, express, sequelize, and many more.
 
 ## Table of Contents
 - [User Story](#userstory)
@@ -54,7 +55,7 @@ THEN I am automatically signed out of the site
 ```
 
 ## GitHub Repo
-[GitHub Repo]()
+[GitHub Repo](https://github.com/HurleySquared/tech-blog)
 
 ## Deployed Heroku Link
 [Heroku Link]()
