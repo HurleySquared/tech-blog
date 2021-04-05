@@ -1,0 +1,10 @@
+[
+  {
+    "title": "First Blog",
+    "text_field": "This is the first blog post on the Tech Blog, Welcome!"
+  },
+  {
+    "title": "Second Blog",
+    "text_field": "This is the second blog post on the Tech Blog, How have you been?"
+  }
+]
