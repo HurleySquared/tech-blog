@@ -1,0 +1,9 @@
+<h2>{{blog.title}}</h2>
+<p>{{blog.text_field}}</p>
+<p>Author: {{user.username}}</p>
+
+{{!-- insert comment submisison form --}}
+
+{{#each blog.comments}}
+  {{ >comment}}
+{{/each}}

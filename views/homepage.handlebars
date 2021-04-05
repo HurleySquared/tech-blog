@@ -1,6 +1,7 @@
 {{#each blogs as |blog|}}
-{{> blog-details}}
-{{/each}}
-{{#each comments as |comment|}}
-{{> comment-details}}
+
+<a href="/blog/{{id}}">{{blog.title}}</a>
+
+<p>{{blog.text_field}}</p>
+
 {{/each}}

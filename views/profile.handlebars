@@ -1,0 +1,6 @@
+<h2>Hello There, {{user.user_name}}</h2>
+{{#if user.blogs.length}}
+<h3>{{#each user.blogs}}</h3>
+<a href="/blog/{{id}}">{{title}}</a>
+{{/each}}
+{{/if}}
